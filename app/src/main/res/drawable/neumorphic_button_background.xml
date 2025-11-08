@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Bayangan Gelap (di sisi kanan bawah) -->
+    <item
+        android:left="5dp"
+        android:top="5dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/neumorphic_shadow_dark" />
+            <corners android:radius="30dp" />
+        </shape>
+    </item>
+
+    <!-- Bayangan Terang / Highlight (di sisi kiri atas) -->
+    <item
+        android:bottom="5dp"
+        android:right="5dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/main_white" />
+            <corners android:radius="30dp" />
+        </shape>
+    </item>
+
+    <!-- Permukaan Tombol Utama -->
+    <item
+        android:bottom="3dp"
+        android:left="3dp"
+        android:right="3dp"
+        android:top="3dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/main_background" />
+            <corners android:radius="28dp" />
+        </shape>
+    </item>
+</layer-list>

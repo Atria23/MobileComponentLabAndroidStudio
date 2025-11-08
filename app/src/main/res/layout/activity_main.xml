@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp"
+    tools:context=".MainActivity">
+
+    <!-- Header Judul -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Mobile Components"
+        android:textColor="@color/text_dark"
+        android:textSize="26sp" />
+
+    <!-- Baris Pertama Grid -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnPrefs"
+            style="@style/NeumorphicButtonStyle"
+            android:layout_marginEnd="12dp"
+            android:drawableTop="@drawable/ic_settings_prefs"
+            android:text="Shared Preferences" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRecycler"
+            style="@style/NeumorphicButtonStyle"
+            android:layout_marginStart="12dp"
+            android:drawableTop="@drawable/ic_view_list_recycler"
+            android:text="Recycler View" />
+
+    </LinearLayout>
+
+    <!-- Baris Kedua Grid -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRoom"
+            style="@style/NeumorphicButtonStyle"
+            android:layout_marginEnd="12dp"
+            android:drawableTop="@drawable/ic_storage_room"
+            android:text="Room DB" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAlarm"
+            style="@style/NeumorphicButtonStyle"
+            android:layout_marginStart="12dp"
+            android:drawableTop="@drawable/ic_alarm_notification"
+            android:text="Alarm Notification" />
+
+    </LinearLayout>
+
+</LinearLayout>

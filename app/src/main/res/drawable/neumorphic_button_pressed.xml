@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Lapisan dasar untuk efek bayangan ke dalam -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:centerColor="@color/main_background"
+                android:endColor="@color/main_white"
+                android:startColor="@color/neumorphic_shadow_dark"
+                android:type="linear" />
+            <corners android:radius="30dp" />
+        </shape>
+    </item>
+
+    <!-- Permukaan yang sedikit lebih kecil untuk mempertegas efek "masuk" -->
+    <item
+        android:bottom="3dp"
+        android:left="3dp"
+        android:right="3dp"
+        android:top="3dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/main_background" />
+            <corners android:radius="28dp" />
+        </shape>
+    </item>
+</layer-list>

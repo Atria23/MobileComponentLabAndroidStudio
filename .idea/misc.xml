@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/_informatika/__Semester_5/pemrograman_mobile/Tugas/proyek3_mobilecomponentlab/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14322916666666666" />
+        <entry key="..\:/_informatika/__Semester_5/pemrograman_mobile/Tugas/proyek3_mobilecomponentlab/app/src/main/res/drawable/button_selector_neumorphic.xml" value="0.14322916666666666" />
+        <entry key="..\:/_informatika/__Semester_5/pemrograman_mobile/Tugas/proyek3_mobilecomponentlab/app/src/main/res/drawable/ic_alarm_notification.xml" value="0.26614583333333336" />
+        <entry key="..\:/_informatika/__Semester_5/pemrograman_mobile/Tugas/proyek3_mobilecomponentlab/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14322916666666666" />
+        <entry key="..\:/_informatika/__Semester_5/pemrograman_mobile/Tugas/proyek3_mobilecomponentlab/app/src/main/res/drawable/ic_settings_prefs.xml" value="0.26614583333333336" />
+        <entry key="..\:/_informatika/__Semester_5/pemrograman_mobile/Tugas/proyek3_mobilecomponentlab/app/src/main/res/drawable/ic_storage_room.xml" value="0.26614583333333336" />
+        <entry key="..\:/_informatika/__Semester_5/pemrograman_mobile/Tugas/proyek3_mobilecomponentlab/app/src/main/res/drawable/ic_view_list_recycler.xml" value="0.26614583333333336" />
+        <entry key="..\:/_informatika/__Semester_5/pemrograman_mobile/Tugas/proyek3_mobilecomponentlab/app/src/main/res/drawable/neumorphic_button_background.xml" value="0.14322916666666666" />
+        <entry key="..\:/_informatika/__Semester_5/pemrograman_mobile/Tugas/proyek3_mobilecomponentlab/app/src/main/res/drawable/neumorphic_button_pressed.xml" value="0.14322916666666666" />
+        <entry key="..\:/_informatika/__Semester_5/pemrograman_mobile/Tugas/proyek3_mobilecomponentlab/app/src/main/res/layout/activity_alarm.xml" value="0.10400000000000001" />
+        <entry key="..\:/_informatika/__Semester_5/pemrograman_mobile/Tugas/proyek3_mobilecomponentlab/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/_informatika/__Semester_5/pemrograman_mobile/Tugas/proyek3_mobilecomponentlab/app/src/main/res/layout/activity_recycler_view.xml" value="0.16576086956521738" />
+        <entry key="..\:/_informatika/__Semester_5/pemrograman_mobile/Tugas/proyek3_mobilecomponentlab/app/src/main/res/layout/activity_room.xml" value="0.16576086956521738" />
+        <entry key="..\:/_informatika/__Semester_5/pemrograman_mobile/Tugas/proyek3_mobilecomponentlab/app/src/main/res/layout/activity_shared_prefs.xml" value="0.16576086956521738" />
+        <entry key="..\:/_informatika/__Semester_5/pemrograman_mobile/Tugas/proyek3_mobilecomponentlab/app/src/main/res/layout/item_note.xml" value="0.11730072463768115" />
+        <entry key="..\:/_informatika/__Semester_5/pemrograman_mobile/Tugas/proyek3_mobilecomponentlab/app/src/main/res/layout/item_task.xml" value="0.16576086956521738" />
+        <entry key="..\:/_informatika/__Semester_5/pemrograman_mobile/Tugas/proyek3_mobilecomponentlab/app/src/main/res/layout/list_item_neumorphic.xml" value="0.11730072463768115" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
